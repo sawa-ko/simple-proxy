@@ -12,6 +12,6 @@ export default defineNitroConfig({
     "@": join(__dirname, "src")
   },
   routeRules: {
-    '/*': { cors: true }
+    '/*': { cors: true, headers: { 'access-control-allow-origin': "*", 'access-control-allow-methods': 'GET' } }
   }
 });
