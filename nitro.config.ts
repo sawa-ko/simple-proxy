@@ -12,6 +12,6 @@ export default defineNitroConfig({
     "@": join(__dirname, "src")
   },
   routeRules: {
-    '/*': { cors: true, headers: { 'access-control-allow-origin': "*", 'access-control-allow-methods': 'GET' } }
+    '/': { cors: true, headers: { 'access-control-allow-origin': "https://movie.sawako.dev", 'access-control-allow-methods': 'GET' } }
   }
 });
