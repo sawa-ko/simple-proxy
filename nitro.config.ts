@@ -11,7 +11,7 @@ export default defineNitroConfig({
   alias: {
     "@": join(__dirname, "src")
   },
-    routeRules: {
+  routeRules: {
     '/*': { cors: true }
   }
 });
